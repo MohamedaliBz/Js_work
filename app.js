@@ -9,14 +9,12 @@ let sum={
 let sum1 =sum.calculateSum();
 console.log("somme initiale : "+sum1);
 
-
 sum.num1=10;
 let sum2 =sum.calculateSum();
 console.log("somme initiale : "+sum2);
 
 sum.num3 = 20;
 console.log(sum.num3);
-
 
 let Products=[
     { id:1,name:"milk",price:1500},
